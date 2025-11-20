@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SIMHOPE+AI | GenAI & Manufacturing</title>
-    
-    <!-- 
+    <title>Jason Lin - AI 專案經理 | 製造業數位轉型 | SIMHOPE+AI</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="大家好，我是Jason。這是我的個人網站，展示在傳統製造業導入生成式AI的實踐經驗之外，也分享平常的休閒興趣，我喜歡吸收AI新知，並在工作之餘沖煮一杯咖啡，能夠讓我的情緒更加平靜，思維也更加清晰。" />
+    <meta name="keywords" content="AI專案經理, 製造業數位轉型, RAG應用, 生成式AI, LangChain, Teams Bot, 流程優化, 數位化, Jason Lin, Simhope, 手沖咖啡" />
+    <meta name="author" content="Jason Lin" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta property="og:title" content="Jason Lin - AI 專案經理 | 製造業數位轉型" />
+    <meta property="og:description" content="將傳統製造業與生成式 AI 接軌的實踐者。展示 RAG、流程優化、數位化轉型的實際專案成果。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com" />
+    <meta property="og:image" content="https://your-domain.com/og-image.jpg" />
+    <meta property="og:locale" content="zh_TW" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jason Lin - AI 專案經理 | 製造業數位轉型" />
+    <meta name="twitter:description" content="將傳統製造業與生成式 AI 接軌的實踐者。" />
+    <meta name="twitter:image" content="https://your-domain.com/twitter-image.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://your-domain.com" />
+
+    <!-- Google Analytics (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G3BKNWSEYX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-G3BKNWSEYX');
+    </script>
+
+    <!--
       NOTE FOR LOCAL DEVELOPMENT:
       1. If running with 'npm run dev' (Vite), you can remove the Tailwind CDN script below,
          as Tailwind will be handled by postcss.config.js and index.css.
@@ -19,6 +51,7 @@
     
     <script>
       tailwind.config = {
+        darkMode: 'class',
         theme: {
           extend: {
             fontFamily: {
